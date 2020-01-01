@@ -12,6 +12,10 @@
 		5329F28923BC9C3900270F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5329F28723BC9C3900270F75 /* Main.storyboard */; };
 		5329F28B23BC9C3D00270F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5329F28A23BC9C3D00270F75 /* Assets.xcassets */; };
 		5329F28E23BC9C3D00270F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5329F28C23BC9C3D00270F75 /* LaunchScreen.storyboard */; };
+		5329F29623BC9DE100270F75 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329F29523BC9DE100270F75 /* ResultViewController.swift */; };
+		5329F29A23BC9F1E00270F75 /* sports_marathon_man.png in Resources */ = {isa = PBXBuildFile; fileRef = 5329F29723BC9F1D00270F75 /* sports_marathon_man.png */; };
+		5329F29B23BC9F1E00270F75 /* sports_marathon_black_man.png in Resources */ = {isa = PBXBuildFile; fileRef = 5329F29823BC9F1D00270F75 /* sports_marathon_black_man.png */; };
+		5329F29C23BC9F1E00270F75 /* sports_marathon_white_man.png in Resources */ = {isa = PBXBuildFile; fileRef = 5329F29923BC9F1E00270F75 /* sports_marathon_white_man.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5329F28A23BC9C3D00270F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5329F28D23BC9C3D00270F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5329F28F23BC9C3D00270F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5329F29523BC9DE100270F75 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		5329F29723BC9F1D00270F75 /* sports_marathon_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sports_marathon_man.png; sourceTree = "<group>"; };
+		5329F29823BC9F1D00270F75 /* sports_marathon_black_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sports_marathon_black_man.png; sourceTree = "<group>"; };
+		5329F29923BC9F1E00270F75 /* sports_marathon_white_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sports_marathon_white_man.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		5329F28223BC9C3900270F75 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				5329F29823BC9F1D00270F75 /* sports_marathon_black_man.png */,
+				5329F29723BC9F1D00270F75 /* sports_marathon_man.png */,
+				5329F29923BC9F1E00270F75 /* sports_marathon_white_man.png */,
 				5329F28323BC9C3900270F75 /* AppDelegate.swift */,
 				5329F28523BC9C3900270F75 /* ViewController.swift */,
 				5329F28723BC9C3900270F75 /* Main.storyboard */,
 				5329F28A23BC9C3D00270F75 /* Assets.xcassets */,
 				5329F28C23BC9C3D00270F75 /* LaunchScreen.storyboard */,
 				5329F28F23BC9C3D00270F75 /* Info.plist */,
+				5329F29523BC9DE100270F75 /* ResultViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -123,8 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5329F28E23BC9C3D00270F75 /* LaunchScreen.storyboard in Resources */,
+				5329F29B23BC9F1E00270F75 /* sports_marathon_black_man.png in Resources */,
+				5329F29A23BC9F1E00270F75 /* sports_marathon_man.png in Resources */,
 				5329F28B23BC9C3D00270F75 /* Assets.xcassets in Resources */,
 				5329F28923BC9C3900270F75 /* Main.storyboard in Resources */,
+				5329F29C23BC9F1E00270F75 /* sports_marathon_white_man.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +152,7 @@
 			files = (
 				5329F28623BC9C3900270F75 /* ViewController.swift in Sources */,
 				5329F28423BC9C3900270F75 /* AppDelegate.swift in Sources */,
+				5329F29623BC9DE100270F75 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
